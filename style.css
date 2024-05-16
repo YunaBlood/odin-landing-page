@@ -14,6 +14,7 @@ body{
     max-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Hero New, sans-serif;
 }
 
 /* Header START section(1) */
@@ -142,6 +143,7 @@ div.information-image > img{
     text-align: center;
     color: rgb(80, 80, 80);
     font-size: 18px;
+    font-family:roboto, sans-serif
 }
 
 /* Section END(2) */
@@ -208,3 +210,17 @@ span.text-signup{
 /* Section END(4) */
 
 /* Footer START(5) */
+
+#footer-container{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 35px;
+    margin:15px 0;
+}
+
+span.text-footer{
+    margin: 15px;
+    color: #E5E7EB;
+}
+
+/* Footer END(5) */
