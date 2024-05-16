@@ -24,7 +24,7 @@ header{
 
 h1{
     font-size: 48px;
-    font-weight:bolder;
+    font-weight:800;
     color: #f9faf8;
 }
 
@@ -56,8 +56,6 @@ button{
     font-size: 18px;
     color: #E5E7EB;
 }
-
-
 
 .navbar-left,
 .navbar-right{
@@ -104,3 +102,46 @@ button{
 }
 
 /* Header END section(1) */
+
+
+/* Section START (2) */
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 25px;
+    padding: 25px;
+    
+}
+
+#container-information{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+div.information-image > img{
+    border: 2px rgb(0, 158, 250) solid;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
+
+.information-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.subtext-image{
+    text-align: center;
+    color: rgb(80, 80, 80);
+    font-size: 18px;
+}
+
+/* Section END(2) */
+
