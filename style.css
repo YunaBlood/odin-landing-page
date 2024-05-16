@@ -1,0 +1,106 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header START section(1) */
+
+header{
+    background-color: #1F2937;
+}
+
+h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+p,
+a,
+li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    color: #E5E7EB;
+}
+
+.links-container{
+    display: flex;
+    padding: 25px;
+    margin: 10px;
+}
+
+.left-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+.navbar-left,
+.navbar-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.navbar-right{
+    margin-right: auto;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.right-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.button-header{
+    background-color: #3882F6;
+    width: 100px;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Header END section(1) */
